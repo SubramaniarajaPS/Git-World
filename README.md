@@ -156,9 +156,10 @@ git remote add upstream <remoteUpstreamRepoURL>
 ```
 git fetch --all --prune
 git reset --hard upstream/main
-
+```
 or 
 
+```
 git pull upstream main
 ```
 
