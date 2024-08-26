@@ -176,6 +176,26 @@ s commit4
 (All the commits with s will be merged with the above pick commit ID)
 ```
 
+- To rebase the feature branch with the main branch 
+> Rebase will completely moves all the commits of feature branch above the commits of the main branch.
+
+```
+git rebase <featureBranchName>
+```
+
+- To pick the particular commit changes in the branch.
+
+```
+git cherry-pick <commitID>
+```
+
+- To perform _git pull_ and _git rebase_ simultaneously
+
+```
+git pull --rebase
+``` 
+
+
 
 
 
