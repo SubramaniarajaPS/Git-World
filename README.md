@@ -205,7 +205,7 @@ git config --global user.email "yourMailId"
 - To edit the last commit.
 
 ```
-git commit -amend
+git commit --amend
 ```
 
 
