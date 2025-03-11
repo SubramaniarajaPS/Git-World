@@ -180,7 +180,7 @@ s commit4
 > Rebase will completely moves all the commits of feature branch above the commits of the main branch.
 
 ```
-git rebase <featureBranchName>
+git rebase <mainBranchName> <featureBranchName>
 ```
 
 - To pick the particular commit changes in the branch.
