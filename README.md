@@ -193,7 +193,22 @@ git cherry-pick <commitID>
 
 ```
 git pull --rebase
-``` 
+```
+
+- To set the author name and email address to be used with your commits.
+
+```
+git config --global user.name "<yourName>"
+git config --global user.email "yourMailId"  
+```
+
+- To edit the last commit.
+
+```
+git commit -amend
+```
+
+
 
 
 
